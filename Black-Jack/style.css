@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heading{
+    background: url("1.jpg");
+    height: 20vh;
+    width: 60vw;
+    color: rgb(calc(180 + 87),calc(180 + 87),calc(180 + 87));
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0%;
+    float: left;
+    font-size: 40px;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    height: 10vh;
+    background:url("1.jpg");
+}
+.content{
+    background: url("1.jpg");
+    height: 70vh;
+    width: 60vw;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hit{
+    border-radius: 30px;
+    outline: none;
+    height: 60px;
+    width: 150px;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+}
+.stand{
+    border-radius: 30px;
+    outline: none;
+    height: 60px;
+    width: 150px;
+    background-color:green;
+    color: white;
+    font-size: 40px;
+}
+.deal{
+    outline: none;
+    height: 60px;
+    width: 150px;
+    background-color:red;
+    color:white;
+    font-size: 40px;
+    border-radius: 30px;
+}
+.hit:hover,.deal:hover,.stand:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+.head{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+.s1,.s2{
+    width: 30vw;
+    height:10vh;
+    color: white;
+}
+.you,.bot{
+    width: 30vw;
+    min-height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.you{
+    border-right: 5px solid white;
+}
